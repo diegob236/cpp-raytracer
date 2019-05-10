@@ -5,13 +5,6 @@ This program renders 3D objects as .ppm images by specifying a driver file with 
 image frame, resolution, recursion level (reflections), light sources, and objects (models and spheres). 
 Supports object smoothing, shadows, reflections, refraction (spheres), multiple materials, and transformations.
 
-## Example images:
-![driver00](ppm/driver00.ppm)
-![driver01](ppm/driver01.ppm)
-![driver02](ppm/driver02.ppm)
-![driver03](ppm/driver03.ppm)
-![driver01](ppm/driver04.ppm)
-
 ## Instructions:
 
 0. Prerequisites:
@@ -29,6 +22,13 @@ Supports object smoothing, shadows, reflections, refraction (spheres), multiple 
 
     - Usage: `./raytracer [driver file] [output file]`
     - Example: `./raytracer driver00.txt driver00.ppm`
+    
+## Example images:
+![driver00](img/driver00.png)
+![driver01](img/driver01.png)
+![driver02](img/driver02.png)
+![driver03](img/driver03.png)
+![driver01](img/driver04.png)
    
 ## Files:
 
